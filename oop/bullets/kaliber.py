@@ -2,7 +2,7 @@ import pygame
 from oop.bullet import Bullet
 
 class Kaliber(Bullet):
-	max_bullet = 5000000000
+	max_bullet = 500
 
 	def __init__(self):
 		Bullet.__init__(self, Kaliber.max_bullet)

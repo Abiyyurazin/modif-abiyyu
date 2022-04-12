@@ -21,8 +21,10 @@ scene.setup_level(
   Level4,
   Level5,
 )
-scene.next_level();
-scene.next_level();
+
+scene.next_level()
+scene.next_level()
+scene.next_level()
 #player = Player(scene, Arrow())
 #player = Player(scene, Fire())
 player = Player(scene, Kaliber())
